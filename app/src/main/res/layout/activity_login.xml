@@ -19,6 +19,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="164dp"
         android:layout_marginEnd="24dp"
+        android:autofillHints=""
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
@@ -75,23 +76,6 @@
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3" />
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="267dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="70dp"
-        android:background="@null"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:gravity="center"
-        android:inputType="textMultiLine"
-        android:text=" Welcome ! \n Please sign up your account."
-        android:textAllCaps="false"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/tip1"
@@ -159,6 +143,19 @@
         android:layout_marginStart="192dp"
         android:layout_marginLeft="192dp"
         android:layout_marginTop="448dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="211dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="84dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=" Welcome ! \n Please sign up your account."
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

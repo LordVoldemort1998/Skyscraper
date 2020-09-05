@@ -1,7 +1,4 @@
 package com.example.skyscraper.data.model;
-/**
- * test for studio
- */
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository
