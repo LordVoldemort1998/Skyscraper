@@ -3,6 +3,7 @@ package com.example.skyscraper.ui.login;
 import android.app.Activity;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
@@ -18,6 +19,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.skyscraper.MainPageActivity;
 import com.example.skyscraper.R;
 import com.example.skyscraper.ui.login.LoginViewModel;
 import com.example.skyscraper.ui.login.LoginViewModelFactory;
@@ -108,9 +110,12 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 loadingProgressBar.setVisibility(View.VISIBLE);
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
+                intent.setClass(LoginActivity.this, MainPageActivity.class);
+                startActivity(intent);
             }
         });
     }
