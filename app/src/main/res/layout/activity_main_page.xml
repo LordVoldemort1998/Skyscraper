@@ -6,4 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".MainPageActivity">
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="409dp"
+        android:layout_height="199dp"
+        android:background="@color/miancolour"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:background="#00FFFFFF"
+        android:tint="#00FFFFFF"
+        app:srcCompat="@drawable/q"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Medcation Warehouse !"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/dashboard"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="124dp"
+        android:layout_height="31dp"
+        android:text="DashBoard"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/online_booking"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Booking"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="118dp"
+        android:layout_height="99dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ambulance"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="117dp"
+        android:layout_height="102dp"
+        android:background="#00FFFFFF"
+        android:scaleType="center"
+        android:tint="#00FFFFFF"
+        app:srcCompat="@drawable/translate"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="374dp" />
+
 </android.support.constraint.ConstraintLayout>

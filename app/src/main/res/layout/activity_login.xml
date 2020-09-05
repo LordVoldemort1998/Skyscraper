@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -78,20 +79,6 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <EditText
-        android:id="@+id/tip1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="292dp"
-        android:background="@null"
-        android:ems="10"
-        android:text="Choose Your Visa Type:"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
         android:id="@+id/tip2"
         android:layout_width="144dp"
         android:layout_height="25dp"
@@ -104,37 +91,6 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <RadioGroup
-        android:layout_width="253dp"
-        android:layout_height="103dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="320dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <RadioButton
-            android:id="@+id/visitorVisaRadio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Visitor visas" />
-
-        <RadioButton
-            android:id="@+id/studyVisaRadio2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Studying and Training visas" />
-
-        <RadioButton
-            android:id="@+id/workVisaRadio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Working and skilled visas" />
-    </RadioGroup>
 
     <Spinner
         android:id="@+id/spinner2"
@@ -159,5 +115,50 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="162dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="Choose Your Visa Type:"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/visitorVisaRadio"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20"
+            android:checked="false"
+            android:text="Visitor visas" />
+
+        <RadioButton
+            android:id="@+id/studyVisaRadio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20"
+            android:checked="false"
+            android:text="Studying and Training visas" />
+
+        <RadioButton
+            android:id="@+id/workVisaRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20"
+            android:checked="false"
+            android:text="Working and skilled visas" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
