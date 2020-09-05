@@ -18,7 +18,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcom to Medication Warehouse !"
+        android:text="Welcom to Medication Warehouse !111"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="33dp"
