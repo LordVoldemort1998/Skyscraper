@@ -80,6 +80,8 @@
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="267dp"
         android:layout_height="72dp"
+        android:layout_marginTop="70dp"
+        android:background="@null"
         android:ems="10"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
@@ -89,8 +91,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="49dp"
-        android:background="@null"  />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/tip1"
