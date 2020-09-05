@@ -77,23 +77,6 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="267dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="70dp"
-        android:background="@null"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:gravity="center"
-        android:inputType="textMultiLine"
-        android:text=" Welcome ! \n Please sign up your account."
-        android:textAllCaps="false"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
         android:id="@+id/tip1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -159,6 +142,20 @@
         android:layout_marginStart="192dp"
         android:layout_marginLeft="192dp"
         android:layout_marginTop="448dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text=" Welcome ! \n Please sign up your account."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
