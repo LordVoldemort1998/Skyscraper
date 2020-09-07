@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "522162598817",
+    "firebase_url": "https://skyscraper-ion.firebaseio.com",
+    "project_id": "skyscraper-ion",
+    "storage_bucket": "skyscraper-ion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522162598817:android:3dce87b6ff8dcb30f711e0",
+        "android_client_info": {
+          "package_name": "com.example.skyscraper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522162598817-k7a8pp55rscql3cpogcrocuo8jahn48p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skyscraper",
+            "certificate_hash": "89dda214538aff7022e9e4b82ef62ff341a809d1"
+          }
+        },
+        {
+          "client_id": "522162598817-3m64q2629uovjpcv0h98lec2v17m33s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGBcy_2qUFkzjetyKFrTrHUjBgqnSCPSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522162598817-3m64q2629uovjpcv0h98lec2v17m33s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
